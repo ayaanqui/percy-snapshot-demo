@@ -1,11 +1,11 @@
 {
-  "name": "dicty-stock-center",
-  "version": "0.0.0-semantically-released",
-  "description": "The Dicty Stock Center app rebuilt with React and Redux!",
+  "name": "percy-snapshot-demo",
+  "version": "1.0.0",
+  "description": "",
   "engines": {
     "node": "14"
   },
-  "homepage": "/stockcenter",
+  "homepage": "/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -27,35 +27,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dictyBase/Dicty-Stock-Center.git"
+    "url": "git+https://github.com/ayaanqui/percy-shapshot-demo.git"
   },
-  "private": true,
-  "license": "BSD-2-Clause",
   "dependencies": {
-    "@apollo/client": "^3.4.16",
-    "@fontsource/roboto": "^4.5.1",
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.16",
-    "@material-ui/core": "^4.12.3",
-    "@material-ui/icons": "^4.11.2",
-    "@material-ui/lab": "^4.0.0-alpha.58",
-    "@react-pdf/renderer": "^2.0.20",
-    "apollo3-cache-persist": "^0.13.0",
-    "dicty-components-header-footer": "dictybase/dicty-components-header-footer#11.0.0",
-    "dicty-components-login": "dictybase/dicty-components-login#4.1.1",
-    "dicty-components-navbar": "github:dictyBase/dicty-components-navbar#2.0.0",
-    "dicty-components-page-editor": "dictybase/dicty-components-page-editor#3.1.2",
-    "dicty-graphql-schema": "dictybase/dicty-graphql-schema#1.1.4",
-    "dicty-hooks": "dictybase/dicty-hooks#3.0.0",
-    "formik": "^2.2.9",
-    "graphql": "^15.7.2",
-    "history": "^5.1.0",
-    "immutable": "^4.0.0",
-    "intersection-observer": "^0.12.0",
-    "jwt-decode": "^3.1.2",
-    "localforage": "^1.10.0",
-    "querystring": "^0.2.1",
     "react": "^16.13.1",
     "react-app-polyfill": "^2.0.0",
     "react-dom": "^16.13.1",
@@ -87,15 +61,11 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/history": "^4.7.8",
     "@types/jest": "^27.0.2",
-    "@types/jwt-decode": "^3.1.0",
     "@types/node": "^16.11.6",
     "@types/react": "^17.0.34",
     "@types/react-dom": "^17.0.11",
     "@types/react-helmet": "^6.1.4",
     "@types/react-router-dom": "^5.3.2",
-    "@types/react-virtualized-auto-sizer": "^1.0.0",
-    "@types/react-window": "^1.8.5",
-    "@types/react-window-infinite-loader": "^1.0.5",
     "@types/yup": "^0.29.12",
     "core-js": "^3.19.1",
     "cypress": "8.7.0",
@@ -104,29 +74,15 @@
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-jest-dom": "3.9.2",
     "eslint-plugin-prettier": "^4.0.0",
-    "husky": "7.0.4",
     "lint-staged": "^11.2.6",
-    "msw": "^0.35.0",
-    "pinst": "^2.1.6",
     "prettier": "^2.4.1",
-    "react-docgen-typescript": "^2.1.1",
     "react-styleguidist": "^11.1.7",
     "react-test-renderer": "^16.13.1",
-    "semantic-release": "^18.0.0",
-    "source-map-explorer": "^2.5.1",
-    "start-server-and-test": "^1.14.0"
+    "semantic-release": "^18.0.0"
   },
   "jest": {
     "collectCoverageFrom": [
-      "src/app/layout/**/*.{js,jsx,ts,tsx}",
-      "src/common/components/**/*.{js,jsx,ts,tsx}",
-      "src/common/hooks/**/*.{js,jsx,ts,tsx}",
-      "src/common/utils/**/*.{js,jsx,ts,tsx}",
-      "src/features/**/*.{js,jsx,ts,tsx}",
-      "!src/**/mock*.{js,jsx,ts,tsx}",
-      "!src/**/types.{js,jsx,ts,tsx}",
-      "!src/**/*Styles.{js,jsx,ts,tsx}",
-      "!src/**/clientConfig*.{js,jsx,ts,tsx}"
+      "src/*.{js,jsx,ts,tsx}"
     ],
     "resetMocks": false
   },
@@ -162,8 +118,5 @@
         "error"
       ]
     }
-  },
-  "msw": {
-    "workerDirectory": "public"
   }
 }
